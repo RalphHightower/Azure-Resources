@@ -14,3 +14,4 @@ Useful Documents for Azure
 - [Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop)
 - [Cloud Adoption Framework for Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/)
 - [GitHub Actions for Azure](https://docs.microsoft.com/en-us/azure/developer/github/github-actions)
+- [Architecting Modern Web Applications with ASP.NET-Core and Azure](Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf)
