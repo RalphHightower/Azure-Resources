@@ -15,3 +15,6 @@ Useful Documents for Azure
 - [Cloud Adoption Framework for Azure](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/)
 - [GitHub Actions for Azure](https://docs.microsoft.com/en-us/azure/developer/github/github-actions)
 - [Architecting Modern Web Applications with ASP.NET-Core and Azure](Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf)
+
+- Justin O'Connor 
+  - [Azure Services Periodic Table](azure-services-periodic-table-v1-1.pdf)
