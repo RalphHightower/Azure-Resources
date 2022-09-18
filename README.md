@@ -17,7 +17,7 @@ Useful Documents for Azure
 - [Architecting Modern Web Applications with ASP.NET-Core and Azure](Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf)
 
 - No Attribution 
-  - [Azure Solution Architect Map](Azure Solution Architect Map.pdf).
+  - [Azure Solution Architect Map](Azure Solution Architect Map.pdf)
   - [DevOps Roadmap](DevOps Roadmap.pdf)
 - Justin O'Connor 
   - [Azure Services Periodic Table](azure-services-periodic-table-v1-1.pdf)
