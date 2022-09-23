@@ -1,5 +1,5 @@
-# Azure-Resources
-Useful Documents for Azure
+# Azure - Resources
+Useful Documents and References for Azure
 
 ## Microsoft 
 
