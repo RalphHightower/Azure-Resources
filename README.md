@@ -1,7 +1,6 @@
-# Azure - Resources
-Useful Documents and References for Azure
+# Azure - Resources and References 
 
-[]()[]()[]()[]()
+Useful Documents and References for Azure
 
 ## Microsoft 
 
