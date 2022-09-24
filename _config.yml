@@ -55,8 +55,10 @@ minima:
 # - about.md
 readme_index:
   enabled:          true
-  remove_originals: false
-  with_frontmatter: false
+  remove_originals: true
+  #false
+  with_frontmatter: true
+  #false
 
 # Build settings
 theme: minima
