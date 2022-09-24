@@ -1,6 +1,5 @@
 
-
-This page is a collection of useful links of resources and references for Azure. 
+# Azure Resources and References
 
 ## Microsoft Resources
 
