@@ -55,7 +55,7 @@ minima:
 # - about.md
 readme_index:
   enabled:          true
-  remove_originals: true
+  remove_originals: false
   #false
   with_frontmatter: false
   #false
