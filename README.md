@@ -1,8 +1,8 @@
-# Azure - Resources and References 
+# Azure - Resources and References Compilation 
 
-[ ]( )[ ]( )[ ]( )
+#[ ]( )[ ]( )[ ]( )
 
-## Microsoft 
+## Microsoft Resources
 
 - [Azure](https://docs.microsoft.com/en-us/azure/)
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
@@ -17,11 +17,14 @@
 - [GitHub Actions for Azure](https://docs.microsoft.com/en-us/azure/developer/github/github-actions)
 - [Architecting Modern Web Applications with ASP.NET-Core and Azure](Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf)
 
+## Other Resources and References
+
 - No Attribution 
   - [Azure Solution Architect Map](Azure Solution Architect Map.pdf)
   - [DevOps Roadmap](DevOps Roadmap.pdf)
-- Justin O'Connor 
+ 
+ - Justin O'Connor 
   - [Azure Services Periodic Table](azure-services-periodic-table-v1-1.pdf)
+
 - Dr. Milan Milanovic
   - [Azure Developer's Sheet](Azure_Developers_2_page_sheet_light.pdf)
-  
