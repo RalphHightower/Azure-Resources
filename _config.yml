@@ -53,6 +53,10 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: false
 
 # Build settings
 theme: minima
