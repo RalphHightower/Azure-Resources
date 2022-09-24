@@ -1,4 +1,4 @@
-# Azure - Resources and References Compilation
+
 
 This page is a collection of useful links of resources and references for Azure. 
 
