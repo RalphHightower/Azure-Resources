@@ -54,10 +54,10 @@ minima:
 #header_pages:
 # - about.md
 readme_index:
-  enabled:          false 
-  remove_originals: true
+  enabled:          false
+  remove_originals: false
   #false
-  with_frontmatter: true
+  with_frontmatter: false
   #false
 
 # Build settings
