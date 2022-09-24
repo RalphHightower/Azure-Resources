@@ -1,5 +1,7 @@
 # Azure - Resources and References 
 
+[ ]( )[ ]( )[ ]( )
+
 ## Microsoft 
 
 - [Azure](https://docs.microsoft.com/en-us/azure/)
@@ -22,5 +24,4 @@
   - [Azure Services Periodic Table](azure-services-periodic-table-v1-1.pdf)
 - Dr. Milan Milanovic
   - [Azure Developer's Sheet](Azure_Developers_2_page_sheet_light.pdf)
-  
   
