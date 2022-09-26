@@ -1,11 +1,11 @@
 ---
-title: Ralph Hightower - [Title]
+title: Ralph Hightower - [Azure Resources]
 ---
 author:
   name: Ralph Hightower 
   email: ralph.hightower@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  [Description]
+  Compilation of useful Azure Resources and References. 
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
