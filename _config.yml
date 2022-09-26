@@ -1,10 +1,12 @@
-title: Ralph Hightower @ github.io [Root Level — Repositories]
+title: Ralph Hightower - Top Level Repository
 author:
   name: Ralph Hightower 
   email: ralph.hightower@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-   Compilation of Azure Resources and Architecture
-
+  I freeze time; I photograph. RETIRED Software Engineer (C#, .Net), 
+  50++ years experience; still active for personal projects. Witnessed 
+  two final space flights: Apollo/Soyuz, Space Shuttle STS-135 Atlantis (launch and landing) w/ Final Four. 
+  
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
