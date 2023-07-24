@@ -21,9 +21,7 @@
 - No Attribution 
   - [Azure Solution Architect Map](Azure Solution Architect Map.pdf)
   - [DevOps Roadmap](DevOps Roadmap.pdf)
- 
  - Justin O'Connor 
    - [Azure Services Periodic Table](azure-services-periodic-table-v1-1.pdf)
-
 - Dr. Milan Milanovic
-  - [Azure Developer's Sheet](Azure_Developers_2_page_sheet_light.pdf)
+   - [Azure Developer's Sheet](Azure_Developers_2_page_sheet_light.pdf)
