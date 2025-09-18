@@ -12,6 +12,12 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Compilation of useful Azure Resources and References. 
 
+repository: 'RalphHightower/Azure-Resources'
+url: 'https://ralphhightower.github.io'
+baseurl: "/blog/"
+timezone: 'America/New_York'
+github_username: RalphHightower
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
