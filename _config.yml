@@ -16,41 +16,134 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%Y-%m-%d %I:%M:%S.%L %p %Z" # "%b %-d, %Y"
+plugins:
+  - jekyll-avatar
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-tagging
+  - jekyll-titles-from-headings
+  - jekyll_ai_related_posts
+  - jekyll-toc
+  - jemoji
+  - jekyll-paginate-v2
 
-  # generate social links in footer
-  social_links:
-     - { platform: devto,          user_url: "https://dev.to/RalphHightower"}
-  #   - { platform: dribbble,       user_url: "https://dribbble.com/RalphHightower" }
-  #   - { platform: facebook,       user_url: "https://www.facebook.com/ralph.hightower" }
-     - { platform: flickr,         user_url: "https://www.flickr.com/photos/RalphHightower" }
-     - { platform: github,         user_url: "https://github.com/RalphHightower" }
-  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-  #   - { platform: instagram,      user_url: "https://www.instagram.com/RalphHightower" }
-  #   - { platform: keybase,        user_url: "https://keybase.io/RalphHightower" }
-     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/RalphHightower" }
-  #   - { platform: microdotblog,   user_url: "https://micro.blog/RalphHightower" }
-  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/RalphHightower" }
-     - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/19978043/ralph-hightower" }
-  #   - { platform: telegram,       user_url: "https://t.me/RalphHightower" }
-  #   - { platform: twitter,        user_url: "https://twitter.com/RalphHightower" }
-     - { platform: youtube,        user_url: "https://www.youtube.com/@RalphHightower" }
+# Theme-specific settings
 
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+# header_pages:
 # - about.md
 
-# Build settings
-theme: minima
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  show_excerpts: true
+  page_excerpts: true
+    # Minima skin selection.
+    # Available skins are:
+    # classic	 Default, light color scheme.
+    # dark	 Dark variant of the classic skin.
+    # auto	 Adaptive skin based on the default classic and dark skins.
+    # solarized-light	 Light variant of solarized color scheme.
+    # solarized-dark	 Dark variant of solarized color scheme.
+    # solarized	 Adaptive skin for solarized color scheme skins.
+  skin: auto
 
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+# Minima date format.
+# The default value is "%b %d, %Y" (e.g. Nov 14, 2023)
+# Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+# Date Formstting Helper: https://strftime.net/
+  date_format: "%b %e, %Y %I:%M %p %Z, %a"
+#    - title: Jekyll repository at GitHub
+#      icon: github
+#      url: "https://github.com/jekyll/jekyll"
+  social_links:
+  - { platform: devto, user_url: "https://dev.to/RalphHightower"}
+  - { platform: facebook, user_url: "https://www.facebook.com/ralph.hightower" }
+  - { platform: flickr, user_url: "https://www.flickr.com/photos/RalphHightower" }
+  - { platform: github, user_url: "https://github.com/RalphHightower" }
+  - { platform: linkedin, user_url: "https://www.linkedin.com/in/RalphHightower" }
+  - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/19978043/ralph-hightower" }
+  - { platform: telegram, user_url: "https://t.me/RalphHightower" }
+  - { platform: youtube, user_url: "https://www.youtube.com/@RalphHightower" }
+  # - { platform: orchid, user_url: "https://orcid.org/0009-0009-7630-3554" }
+  # - { platform: dribbble, user_url: "https://dribbble.com/RalphHightower" }
+  # - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  # - { platform: instagram, user_url: "https://www.instagram.com/RalphHightower" }
+  # - { platform: keybase, user_url: "https://keybase.io/RalphHightower" }
+  # - { platform: microdotblog, user_url: "https://micro.blog/RalphHightower" }
+  # - { platform: pinterest, user_url: "https://www.pinterest.com/RalphHightower" }
+  # - { platform: twitter, user_url: "https://twitter.com/RalphHightower" }
+
+ai_related_posts:
+  openai_api_key: {{ secrets.OPEN_AI_KEY }}
+  fetch_enabled: prod
+
+# Optional. The default date format is used if none is specified in the tag.
+last-modified-at:
+  date-format: "%b %e, %Y %I:%M %p %Z, %a"
+
+optional_front_matter:
+  remove_originals: true
+  enabled: true
+
+# Pagination Settings: jekyll-paginate-v2
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
+
+# Explicitly turn off the old code
+# paginate: nil
+# paginate_path: nil
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 15
+  offset: 0
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  indexpage: 'blogpager'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  debug: true
+  trail:
+    before: 4
+    after: 4
+
+readme_index:
+  enabled: true
+  remove_originals: true
+  with_frontmatter: true
+
+relative_links:
+  enabled:     true
+  collections: true
+
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 titles_from_headings:
-  enabled:     true
+  enabled: false
   strip_title: true
   collections: true
+
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
+
+exclude:
+  - .ai_related_posts_cache.sqlite3
+  - .ai_related_posts_cache.sqlite3-journal
