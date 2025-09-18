@@ -16,7 +16,7 @@
 # under the License.
 
 
-name: systematic-release.yml – Pull Request
+name: Semantic Pull Request
 
 on:
   pull_request:
@@ -40,8 +40,12 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      name: semantic release
-        uses: amannn/action-semantic-pull-request@v5.5.3
+      - name: Harden Runner
+        uses: step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a # v2.13.1
+        with:
+          egress-policy: audit
+
+      - uses: amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50 # v6.1.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -95,6 +99,33 @@ jobs:
             md
             meta
             misc
+            ml
+            monitor
+            offload
+            proxy
+            schema
+            sec
+            site
+            sql
+            scss
+            storage
+            test
+            trans
+            txn
+            ws
+            ui
+            yml
+            zk
+            pip
+          # The pull request's title should be fulfilled the following pattern:
+          #
+          #     [<type>][<optional scope>] <description>
+          #
+          # ... where valid types and scopes can be found above; for example:
+          #
+          #     [fix][test] flaky test V1_ProxyAuthenticationTest.anonymousSocketTest
+          headerPattern: '^\[(\w*?)\](?:\[(.*?)\])?(?:\s*)(.*)$'
+          headerPatternCorrespondence: type, scope, subject
             ml
             monitor
             offload
