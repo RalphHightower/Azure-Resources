@@ -1,4 +1,6 @@
 {
+  name: "Azure-Resoures",
+  description: "Useful Azure Resources"
   "devDependencies": {
     "@semantic-release/npm": "^13.1.1"
   }
